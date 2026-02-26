@@ -3,9 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Pet-House-Homepage</title>
 </head>
-<body>
-    
+<body class="bg-[#1E1E1E]">
+<div class="wrapper w-[1600px] mx-auto bg-[#FFFFFF]">
+    <header class="mb-[140px]">
+        <navbar class="bg-[#FFF9F4] h-[100px] px-[140px] flex justify-between items-center mb-[76px]">
+            <div class="brand text-[26px] font-['Sora'] flex items-center gap-x-[12px]">
+                <img class="w-[48px] h-[48px]" src="assets/logo-header.png" alt="">
+                <h2>Browse <span class="text-[#FFDC26]">4</span> Pets</h2>
+            </div>
+            <ul class="navlists flex justify-center items-center gap-x-[32px] text-[20px] font-['Sora']">
+                <li><a href="">Find a pet</a></li>
+                <li><a href="">Breeds</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+            <div class="login flex justify-center items-center gap-x-[16px]">
+                <div class="text-[24px] mr-[4px]"><a href=""><i class="fa-regular fa-bell"></i></a></div>
+                <div class="text-[24px] mr-[4px]"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                <div class="w-[117px] h-[45px] text-[20px] font-['Sora'] border border-[#FFDC26] rounded-[12px] flex justify-center items-center"><a href="">Login</a></div>
+                <div class="w-[146px] h-[45px] text-[20px] font-['Sora'] rounded-[12px] bg-[#FFDC26] flex justify-center items-center"><a href="">Register</a></div>
+            </div>
+        </navbar>
+        <div class="banner w-[1320px] h-[749px] mx-auto relative bg-[url(/assets/cat-big.png)]">
+            <div class="absolute top-[24px] left-0">
+            <h1 class="text-[56px] font-['ADLaM_Display'] mb-[16px]">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+            <p class="text-[20px] text-[#585858] font-['Sora'] mb-[24px]">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="capitalize px-[30px] py-[10px] rounded-[10px] bg-[#FFDC26] text-[20px] font-['Sora']"><a href="">find a pet</a></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="w-[1320px] mx-auto mb-[126px]">
+            <h1 class="text-[36px] font-['ADLaM_Display'] mb-[48px]">Browse By Categories</h1>
+            <div class="cards flex justify-between items-center">
+                <div class="card w-[200px] h-[254px] rounded-[12px] bg-[#F9DF8A] flex flex-col justify-center items-center gap-y-[24px]">
+                <div><img src="assets/dog-cartoon.png" alt=""></div>
+                <div class="text-center">
+                    <h3 class="mb-[12px] capitalize text-[20px] font-['ADLaM_Display']">dog</h3>
+                    <h4 class="font-['Sora']">3 items</h4>
+                </div>
+                </div>
+                <div class="card w-[200px] h-[254px] rounded-[12px] bg-[#F9DF8A] flex flex-col justify-center items-center gap-y-[24px]">
+                <div><img src="assets/fish-cartoon.png" alt=""></div>
+                <div class="text-center">
+                    <h3 class="mb-[12px] capitalize text-[20px] font-['ADLaM_Display']">dog</h3>
+                    <h4 class="font-['Sora']">3 items</h4>
+                </div>
+                </div>
+                <div class="card w-[200px] h-[254px] rounded-[12px] bg-[#F9DF8A] flex flex-col justify-center items-center gap-y-[24px]">
+                <div><img src="assets/cat-cartoon.png" alt=""></div>
+                <div class="text-center">
+                    <h3 class="mb-[12px] capitalize text-[20px] font-['ADLaM_Display']">dog</h3>
+                    <h4 class="font-['Sora']">3 items</h4>
+                </div>
+                </div>
+                <div class="card w-[200px] h-[254px] rounded-[12px] bg-[#F9DF8A] flex flex-col justify-center items-center gap-y-[24px]">
+                <div><img src="assets/bird-cartoon.png" alt=""></div>
+                <div class="text-center">
+                    <h3 class="mb-[12px] capitalize text-[20px] font-['ADLaM_Display']">dog</h3>
+                    <h4 class="font-['Sora']">3 items</h4>
+                </div>
+                </div>
+                <div class="card w-[200px] h-[254px] rounded-[12px] bg-[#F9DF8A] flex flex-col justify-center items-center gap-y-[24px]">
+                <div><img src="assets/mouse-cartoon.png" alt=""></div>
+                <div class="text-center">
+                    <h3 class="mb-[12px] capitalize text-[20px] font-['ADLaM_Display']">dog</h3>
+                    <h4 class="font-['Sora']">3 items</h4>
+                </div>
+                </div>
+                <div class="card w-[200px] h-[254px] rounded-[12px] bg-[#F9DF8A] flex flex-col justify-center items-center gap-y-[24px]">
+                <div><img src="assets/rabbit-cartoon.png" alt=""></div>
+                <div class="text-center">
+                    <h3 class="mb-[12px] capitalize text-[20px] font-['ADLaM_Display']">dog</h3>
+                    <h4 class="font-['Sora']">3 items</h4>
+                </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="w-[100%] h-[775px] p-[140px] bg-[#FFF9F4]">
+            <h1 class="text-[36px] font-['ADLaM_Display'] mb-[48px]">Trending Pet Products</h1>
+            <div class="flex justify-center items-center gap-x-[24px]">
+                <div class="card w-[424px] h-[402px] bg-[#F9DF8A] rounded-[12px] relative">
+                <h1 class="absolute top-[51px] left-[32px] text-[32px] font-['ADLaM_Display']">T- Shirt For Dogs</h1>
+                <p class="absolute top-[114px] left-[32px] text-[#111111b3] font-['Sora']">Discover a world of treats, toys, and essentials handpicked for </p>
+                <button class="w-[166px] h-[45px] bg-[#FFFFFF] absolute top-[175px] left-[33px] rounded-[8px] flex justify-center items-center text-[20px] font-['Sora']"><a href="">Shop Now</a></button>
+                <img class="absolute bottom-0 right-0" src="assets/small-pet.png" alt="">
+                </div>
+                <div class="cards grid grid-cols-3 gap-[23px]">
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/fish-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/bird-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/bird-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/pet-couch.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/fish-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/pet-couch.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="card w-[275px] h-[118px] rounded-[12px] border border-[#1111111a] bg-[#FFFFFF]">
+                        <div class="pt-[16px] pl-[16px] flex items-center gap-x-[16px]">
+                        <div class="w-[86px] h-[86px] rounded-[8px] bg-[#FFF9F4] flex justify-center items-center">
+                            <img src="assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="font-['Sora']"><span class="text-[#FFC107] text-[18px] mb-[8px]">★</span> 4.5</h6>
+                            <h4 class="capitalize text-[20px] font-medium font-['Sora'] mb-[6px]">pet bed</h4>
+                            <h6 class="font-medium font-['Sora']">$39.99</h6>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
+</div>    
 </body>
 </html>
