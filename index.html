@@ -11,7 +11,7 @@
     <title>Pet-House-Homepage</title>
 </head>
 <body class="bg-[#1E1E1E]">
-<div class="wrapper w-[1600px] mx-auto bg-[#FFFFFF]">
+<div class="wrapper w-[1600px] mx-auto bg-[#FFFFFF] relative">
     <header class="mb-[140px]">
         <navbar class="bg-[#FFF9F4] h-[100px] px-[140px] flex justify-between items-center mb-[76px]">
             <div class="brand text-[26px] font-['Sora'] flex items-center gap-x-[12px]">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="mb-[405px]">
         <section class="w-[1320px] mx-auto mb-[126px]">
             <h1 class="text-[36px] font-['ADLaM_Display'] mb-[48px]">Browse By Categories</h1>
             <div class="cards flex justify-between items-center">
@@ -88,7 +88,7 @@
             </div>
         </section>
 
-        <section class="w-[100%] h-[775px] p-[140px] bg-[#FFF9F4]">
+        <section class="w-[100%] h-[775px] p-[140px] bg-[#FFF9F4] mb-[141px]">
             <h1 class="text-[36px] font-['ADLaM_Display'] mb-[48px]">Trending Pet Products</h1>
             <div class="flex justify-center items-center gap-x-[24px]">
                 <div class="card w-[424px] h-[402px] bg-[#F9DF8A] rounded-[12px] relative">
@@ -218,9 +218,69 @@
                 </div>
             </div>
         </section>
+        
+        <section class="w-[1320px] mx-auto">
+        <h1 class="text-[36px] font-['ADLaM_Display'] mb-[47px]">Everyday low Price</h1>
+        <div class="flex justify-between items-center">
+            <div class="w-[784px] h-[480px] rounded-[12px] flex justify-end items-center gap-x-[26px] bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD]">
+                <div>
+                    <h4 class="text-[20px] font-['Sora'] mb-[12px]">Under Price</h4>
+                    <h2 class="text-[32px] font-['ADLaM_Display'] mb-[8px]">Pet Grooming Mitt</h2>
+                    <h3 class="text-[24px] text-[#FFFFFF] font-['ADLaM_Display'] mb-[16px]">(Easy Hair Removal)</h3>
+                    <h1 class="text-[56px] font-['ADLaM_Display']">$7.99</h1>
+                </div>
+                <div><img src="assets/cute-dog-mid.png" alt=""></div>
+            </div>
+            <div class="w-[512px] h-[480px] relative rounded-[12px] bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A]">
+                <h2 class="absolute top-[55px] left-[50px] text-[32px] font-['ADLaM_Display']">T-Shirt for Dogs</h2>
+                <h1 class="absolute top-[101px] left-[48px] text-[56px] text-[#FFDC26] font-['ADLaM_Display']">$7.99</h1>
+                <div class="absolute bottom-0 right-0"><img src="assets/cute-pet-mid.png" alt=""></div>
+
+            </div>
+        </div>
+            
+        </section>
 
     </main>
-    <footer></footer>
+    <footer class="w-[100%] h-[654px] bg-[#ffdc2680] relative">
+      <section class="absolute bottom-[141px] left-[156px] flex items-end gap-x-[158px]">
+        <div>
+            <div class="flex items-center gap-x-[12px] mb-[24px]">
+                <img class="w-[48px] h-[48px]" src="assets/logo-footer.png" alt="">
+                <h2 class="capitalize text-[26px] font-['Sora']">browse pets</h2>
+            </div>
+            <p class="text-[20px] text-[#111111b3] font-['Sora']">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+        </div>
+        <div class="flex flex-col gap-y-[32px] text-[20px] font-['Sora'] mr-[240px]">
+            <h4>Find a pet</h4>
+            <h4>Breeds</h4>
+            <h4>Contact us</h4>
+        </div>
+        <div>
+            <h2 class="font-medium font-['Sora'] mb-[15px]">Follow Us</h2>
+            <div class="flex items-center gap-x-[30px]">
+                <img src="assets/fb.png" alt="">
+                <img src="assets/insta.png" alt="">
+                <img src="assets/linkd.png" alt="">
+                <img src="assets/youtube.png" alt="">
+            </div>
+        </div>
+
+      </section>  
+    </footer>
+    <section class="w-[1320px] h-[491px] absolute bottom-[428px] left-[140px] bg-[#FFF9F4] rounded-[12px] flex items-center gap-x-[117px] pl-[89px]">
+        <div><img src="assets/pet-large.png" alt=""></div>
+        <div>
+            <h2 class="text-[36px] font-['ADLaM_Display'] mb-[20px]">Get Pawsome News!</h2>
+            <p class="text-[20px] font-['Sora'] mb-[38px]">Exclusive training tips, ticks, product deals and more.</p>
+            <form action="">
+                <input class="w-[472px] h-[67px] rounded-[8px] bg-[#FFFFFF] placeholder:pl-[18px] mb-[38px] placeholder:font-['Sora']" type="email" placeholder="Enter email...." name="" id="">
+                <br>
+                <input class="w-[164px] h-[45px] rounded-[8px] bg-[#FFDC26] text-[20px] font-['Sora']" type="submit" value="Subscribe">
+            </form>
+        </div>
+
+    </section>
 </div>    
 </body>
 </html>
